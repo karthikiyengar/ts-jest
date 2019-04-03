@@ -9,6 +9,7 @@
     "prebuild": "node scripts/clean-dist.js",
     "build": "tsc -p tsconfig.build.json",
     "postbuild": "node scripts/post-build.js",
+    "postinstall": "npm run build",
     "build:watch": "tsc -p tsconfig.build.json -w",
     "clean": "node scripts/clean.js",
     "pretest": "npm run lint",
