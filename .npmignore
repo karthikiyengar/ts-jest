@@ -53,10 +53,8 @@ jest.config.js
 appveyor.yml
 .editorconfig
 .prettierignore
-tsconfig.json
 .prettierrc
 .travis.yml
-tsconfig.build.json
 tslint.json
 .npmrc
 .markdownlint.yaml
